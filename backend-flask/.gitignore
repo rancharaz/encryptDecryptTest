@@ -1,0 +1,23 @@
+# Ignorer l'environnement virtuel
+.venv/
+venv/
+
+# Ignorer les fichiers de configuration spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Ignorer les fichiers Python compilés
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignorer la base de données SQLite si elle est générée dynamiquement
+*.db
+*.sqlite3
+
+# Fichiers d'environnement
+.env
+
+# Dépendances Node.js pour le frontend (si applicable)
+node_modules/
